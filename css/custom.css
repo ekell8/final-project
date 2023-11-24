@@ -700,8 +700,8 @@ progress {
 }
 
 .img-fluid {
-  max-width: 10008;
-  height: 250px;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-thumbnail {
@@ -11854,6 +11854,19 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.hero-banner img {
+  height: 380px;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+.nav-bar nav {
+  background-color: #fff;
+  width: 480px;
+  margin: -28px 0 0 auto;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=custom.css.map */

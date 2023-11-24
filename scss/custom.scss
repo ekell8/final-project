@@ -8,4 +8,17 @@
 // Then add additional custom code here
 
 // Image Banner
+ 
+.hero-banner img {
+    height: 380px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
 
+.nav-bar nav {
+    background-color: #fff;
+    width: 480px;
+    margin: -28px 0 0 auto;
+    border-radius: 15px;
+}
