@@ -2,13 +2,21 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
+$border-width: 4px;
+$primary: #2D5775;
+$secondary: #EC6A44;
+$success: #8FBCC6;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
-// Image Banner
- 
+// Image Banner & Logo
+.logo img {
+    margin: 86px 0 0 auto;
+    position: absolute;
+}
+
 .hero-banner img {
     height: 380px;
     object-fit: cover;
@@ -16,9 +24,106 @@
     width: 100%;
 }
 
+// Navbar
 .nav-bar nav {
     background-color: #fff;
     width: 480px;
     margin: -28px 0 0 auto;
     border-radius: 15px;
+    border: solid 4px black;
+}
+
+.nav-bar a {
+    color: $secondary;
+}
+
+// Cards
+.card-title {
+    color: $secondary;
+}
+
+#public-interactions .borderless {
+    border: transparent;
+}
+
+#information .card-group {
+    border: solid 4px black;
+    border-radius: 5px;
+}
+
+#information .card-group .card {
+    border: none;
+}
+
+
+// Buttons
+.button {
+    
+}
+
+// Images
+.card-image img {
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+.drinks img {
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+.contact-image img {
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+// .contact-image img {
+//     height: 20%;
+//     object-fit: cover;
+//     overflow: hidden;
+//     width: 20%;
+// }
+
+// Footer
+
+.footer {
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 768px) {
+    .card-image {
+        position: relative;
+    }
+    .card-image img {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nav-bar nav {
+        background-color: transparent;
+        border: none;
+    }
+    .navbar-toggler {
+        background-color: white;
+        border-radius: 0;
+    }
+    .navbar-collapse {
+        background-color: white;
+        border: solid 4px black;
+        border-radius: 15px;
+        position: absolute;
+        right: 11px;
+        top: 47px;
+        width: 200px;
+        padding: 0 20px;
+        z-index: 10;
+    }
 }
