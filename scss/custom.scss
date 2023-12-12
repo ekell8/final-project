@@ -59,6 +59,12 @@ $success: #8FBCC6;
     border: transparent;
 }
 
+// Text
+.info-box {
+    max-width: 400px;
+    border-radius: 20px;
+}
+
 
 // Buttons
 .buttons button {
@@ -80,22 +86,16 @@ $success: #8FBCC6;
     width: 100%;
 }
 
-.contact-image img {
+.contact-image {
     height: 100%;
-    object-fit: cover;
+    object-fit:contain;
     overflow: hidden;
     width: 100%;
+    border-radius: 15px;
+    border: solid 4px black;
 }
 
-// .contact-image img {
-//     height: 20%;
-//     object-fit: cover;
-//     overflow: hidden;
-//     width: 20%;
-// }
-
 // Footer
-
 .footer {
     justify-content: space-between;
 }
