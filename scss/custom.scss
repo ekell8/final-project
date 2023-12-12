@@ -67,9 +67,7 @@ $success: #8FBCC6;
 
 
 // Buttons
-.buttons button {
-    align-items: center;
-}
+
 
 // Images
 .card-image img {
@@ -88,7 +86,7 @@ $success: #8FBCC6;
 
 .contact-image {
     height: 100%;
-    object-fit:contain;
+    object-fit: cover;
     overflow: hidden;
     width: 100%;
     border-radius: 15px;
@@ -129,5 +127,9 @@ $success: #8FBCC6;
         width: 200px;
         padding: 0 20px;
         z-index: 10;
+    }
+
+    .card-group {
+        
     }
 }

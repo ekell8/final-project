@@ -11905,10 +11905,6 @@ textarea.form-control-lg {
   border-radius: 20px;
 }
 
-.buttons button {
-  align-items: center;
-}
-
 .card-image img {
   height: 100%;
   object-fit: cover;
@@ -11925,7 +11921,7 @@ textarea.form-control-lg {
 
 .contact-image {
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   overflow: hidden;
   width: 100%;
   border-radius: 15px;
