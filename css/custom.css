@@ -11896,6 +11896,14 @@ textarea.form-control-lg {
   border: none;
 }
 
+#contact-info .borderless {
+  border: transparent;
+}
+
+.buttons button {
+  align-items: center;
+}
+
 .card-image img {
   height: 100%;
   object-fit: cover;

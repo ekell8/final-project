@@ -55,10 +55,14 @@ $success: #8FBCC6;
     border: none;
 }
 
+#contact-info .borderless {
+    border: transparent;
+}
+
 
 // Buttons
-.button {
-    
+.buttons button {
+    align-items: center;
 }
 
 // Images
